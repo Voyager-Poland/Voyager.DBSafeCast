@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+    <TargetFrameworks>net6.0;net472</TargetFrameworks>
+		<SignAssembly>True</SignAssembly>
+		<AssemblyOriginatorKeyFile>VoyagerS3Key.snk</AssemblyOriginatorKeyFile>
+		<RepositoryUrl>https://github.com/Voyager-Poland/Voyager.DBSafeCast.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/Voyager-Poland/Voyager.DBSafeCast</PackageProjectUrl>
+	</PropertyGroup>
+
+<PropertyGroup>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Version></Version>
+    <Title>Voyager.DBSafeCast</Title>
+    <Authors>Andrzej Świstowski</Authors>
+    <Company>Voyager.com sp. z o.o.</Company>
+    <Description>Tool for safety casting of DBTypes.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Voyager.com sp. z o.o.</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageIcon>voyager-nugets-ikona-128x128.png</PackageIcon>
+    <DelaySign>False</DelaySign>
+    <AssemblyOriginatorKeyFile>VoyagerS3Key.snk</AssemblyOriginatorKeyFile>
+    <PackAsTool>False</PackAsTool>
+    <PackageTags>SQL;DbType;Cast</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\img\voyager-nugets-ikona-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
+
