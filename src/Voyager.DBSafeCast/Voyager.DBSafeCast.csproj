@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-    <TargetFrameworks>net6.0;net472</TargetFrameworks>
+    <TargetFrameworks>net6.0;net472;net8.0</TargetFrameworks>
 		<SignAssembly>True</SignAssembly>
 		<AssemblyOriginatorKeyFile>VoyagerS3Key.snk</AssemblyOriginatorKeyFile>
 		<RepositoryUrl>https://github.com/Voyager-Poland/Voyager.DBSafeCast.git</RepositoryUrl>
@@ -14,7 +14,7 @@
     <IsPackable>true</IsPackable>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
-    <Version></Version>
+    <Version>2.0.1</Version>
     <Title>Voyager.DBSafeCast</Title>
     <Authors>Andrzej Świstowski</Authors>
     <Company>Voyager.com sp. z o.o.</Company>
